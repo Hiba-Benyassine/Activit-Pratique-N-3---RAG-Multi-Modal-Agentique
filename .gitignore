@@ -1,0 +1,20 @@
+# Environnement Python
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Fichiers générés
+chroma_pdf/
+resultats_pdf/
+
+# Cache et fichiers temporaires
+.cache/
+*.log
