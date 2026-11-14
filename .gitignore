@@ -2,9 +2,20 @@
 .venv/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.egg-info/
 
 # Jupyter
 .ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Editeurs et systeme
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
 
 # Secrets
 .env
@@ -14,7 +25,17 @@ __pycache__/
 # Fichiers générés
 chroma_pdf/
 resultats_pdf/
+chroma/
+*.sqlite3
+*.bin
+*.lock
+build/
+dist/
 
 # Cache et fichiers temporaires
 .cache/
 *.log
+*.tmp
+*.temp
+tmp/
+temp/
