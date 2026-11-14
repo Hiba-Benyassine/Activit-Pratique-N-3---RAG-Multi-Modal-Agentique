@@ -20,7 +20,7 @@ desktop.ini
 # Secrets
 .env
 .env.*
-!.env.example
+.env.example
 
 # Fichiers générés
 chroma_pdf/
