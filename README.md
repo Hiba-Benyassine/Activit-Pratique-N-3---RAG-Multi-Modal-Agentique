@@ -15,3 +15,8 @@ Développer un système RAG multimodal capable d'extraire les textes et les imag
 - [x] Étape 7 : Tests
 
 Le notebook principal est [TP3_RAG-Multi-Modal-Agentique.ipynb](./TP3_RAG-Multi-Modal-Agentique.ipynb). Les fichiers générés sont placés dans `resultats_pdf/`, ignoré par Git.
+
+## Utiliser Gemini
+
+Copier `.env.example` vers `.env`, puis renseigner `GOOGLE_API_KEY`.
+La clé est chargée automatiquement par le notebook et le fichier `.env` n'est pas versionné.
