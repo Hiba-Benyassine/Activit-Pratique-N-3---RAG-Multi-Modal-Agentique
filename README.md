@@ -1,22 +1,17 @@
-# TP3 — RAG Multimodal Agentique
+﻿# TP3 — RAG Multimodal Agentique
 
 Activité pratique N°3 — Mohamed YOUSSFI
 
 ## Objectif
-Développer un système RAG multimodal capable
-d'extraire les textes et les images d'un PDF,
-de les indexer dans ChromaDB et de les
-interroger à l'aide d'un agent IA.
-
-## Source
-Attention Is All You Need
+Développer un système RAG multimodal capable d'extraire les textes et les images du PDF **Attention Is All You Need**, de les indexer dans ChromaDB et de les interroger avec un agent IA.
 
 ## Avancement
-- [x] Initialisation du projet
-- [ ] Étape 1 : Extraction PDF
-- [ ] Étape 2 : Embeddings CLIP
-- [ ] Étape 3 : Indexation ChromaDB
-- [ ] Étape 4 : Recherche multimodale
-- [ ] Étape 5 : Retriever Tool
-- [ ] Étape 6 : Agent ReAct
-- [ ] Étape 7 : Tests
+- [x] Étape 1 : Extraction PDF
+- [x] Étape 2 : Embeddings CLIP
+- [x] Étape 3 : Indexation ChromaDB
+- [x] Étape 4 : Recherche multimodale
+- [x] Étape 5 : Retriever Tool
+- [x] Étape 6 : Agent ReAct avec LangGraph
+- [x] Étape 7 : Tests
+
+Le notebook principal est [TP3_RAG-Multi-Modal-Agentique.ipynb](./TP3_RAG-Multi-Modal-Agentique.ipynb). Les fichiers générés sont placés dans `resultats_pdf/`, ignoré par Git.
